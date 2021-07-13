@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springCloud_02nacosClient8888" />
+        <module name="springCloud_06Naming9002" />
+        <module name="springCloud_04nacosClient8889" />
+        <module name="springcloud_01eureka" />
+        <module name="springCloud_03nacosClient" />
+        <module name="springCloud_05client9001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud_01eureka" target="1.5" />
+      <module name="springCloud_02nacosClient8888" target="8" />
+      <module name="springCloud_02UserServer" target="8" />
+      <module name="springCloud_03Alibaba_nacos" target="8" />
+      <module name="springCloud_03nacosClient" target="8" />
+      <module name="springCloud_03nacosClient9000" target="8" />
+      <module name="springCloud_04nacosClient8889" target="8" />
+      <module name="springCloud_05client9001" target="8" />
+      <module name="springCloud_06Naming9002" target="8" />
+      <module name="springcloud_parent" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

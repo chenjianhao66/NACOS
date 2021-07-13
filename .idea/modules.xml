@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springCloud_02nacosClient8888/springCloud_02nacosClient8888.iml" filepath="$PROJECT_DIR$/springcloud_parent/springCloud_02nacosClient8888/springCloud_02nacosClient8888.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springCloud_03nacosClient9000/springCloud_03nacosClient.iml" filepath="$PROJECT_DIR$/springcloud_parent/springCloud_03nacosClient9000/springCloud_03nacosClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springCloud_04nacosClient8889/springCloud_04nacosClient8889.iml" filepath="$PROJECT_DIR$/springcloud_parent/springCloud_04nacosClient8889/springCloud_04nacosClient8889.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springCloud_05client9001/springCloud_05client9001.iml" filepath="$PROJECT_DIR$/springcloud_parent/springCloud_05client9001/springCloud_05client9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springCloud_06Naming9002/springCloud_06Naming9002.iml" filepath="$PROJECT_DIR$/springcloud_parent/springCloud_06Naming9002/springCloud_06Naming9002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springcloud.iml" filepath="$PROJECT_DIR$/.idea/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_01eureka/springcloud_01eureka.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_01eureka/springcloud_01eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_parent.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_parent.iml" />
+    </modules>
+  </component>
+</project>
