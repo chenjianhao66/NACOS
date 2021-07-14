@@ -1,5 +1,6 @@
 package com.jianhao;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -15,9 +16,14 @@ public class nacosClient8888 {
 
   @RestController
     public class controller{
-        @GetMapping("/")
+        @Value("${server.port}")
+        String port;
+
+
+        @GetMapping("/config/test")
         public String test(){
-            return "nacosClient8888 server run success";
+            return "service:nacosclient9000,port---->"+port;
+//            return "nacosClient8888 server run success";
         }
     }
 }

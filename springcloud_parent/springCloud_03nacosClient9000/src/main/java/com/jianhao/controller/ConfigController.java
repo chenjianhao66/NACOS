@@ -11,12 +11,16 @@ import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.SystemUtils;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @Api(tags = "NACOS配置中心接口类")
 @RequestMapping("config")
 public class ConfigController {
+
+    @Value("${server.port}")
+    String port;
 
     @ApiOperation(value = "据dataId和group来获取一个配置，tenant可选", notes = "tenant默认为空")
     @GetMapping("getConfig")
@@ -86,6 +90,13 @@ public class ConfigController {
             e.printStackTrace();
         }
         return res.setMsg("连接超时或网络异常!!").setCode(500);
+    }
+
+
+
+    @GetMapping("test")
+    public String test(){
+        return "service:nacosclient9000,port---->"+port;
     }
 
 }

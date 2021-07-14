@@ -18,6 +18,7 @@ import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.SystemUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
@@ -36,6 +37,15 @@ public class testController {
 
     @Autowired
     private RestTemplate restTemplate;
+
+    @Value("${server.port}")
+    String port;
+
+
+    @GetMapping("client9000_test")
+    public String client9000_test(){
+        return "被调用服务的端口号为----->"+port;
+    }
 
 
     @GetMapping("/getConfig")
